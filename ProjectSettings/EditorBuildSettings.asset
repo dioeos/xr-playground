@@ -9,7 +9,10 @@ EditorBuildSettings:
     path: Assets/Scenes/XRGrabAndTeleportBasicScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects:
+    UnityEditor.XR.VisionOS.VisionOSSettings: {fileID: 11400000, guid: b84513ab34eb43f48bc343aae3602b01, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    com.unity.polyspatial.xr.xr_settings: {fileID: 11400000, guid: db5d4dbbb74da5343ab3438031fe71f1, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: ae4ded54df115684ebc410d69044b998, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: b5b431e011ae113469e4b2308aacc744, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: cd75ebd4dab06af45b44a9a449bac194, type: 2}
   m_UseUCBPForAssetBundles: 0
