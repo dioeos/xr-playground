@@ -59,13 +59,14 @@ public class HandTrackingManager : MonoBehaviour, IHandTrackingService {
     return palmJoint.TryGetPose(out pose);
   }
 
-  public bool IsHandTracked(Handedness hand) {
+  public bool TryGetHand(Handedness hand, out XRHand xrHand) {
+    xrHand = default;
 
     if (m_HandSubsystem == null || !m_HandSubsystem.running)
       return false;
 
-    XRHand xrHand = hand == Handedness.Left ? m_HandSubsystem.leftHand
-                                            : m_HandSubsystem.rightHand;
+    xrHand = hand == Handedness.Left ? m_HandSubsystem.leftHand
+                                     : m_HandSubsystem.rightHand;
 
     return xrHand.isTracked;
   }

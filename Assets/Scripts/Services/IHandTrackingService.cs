@@ -7,6 +7,6 @@ public interface IHandTrackingService {
   /// tries to get palm, gives Pose of palm if possible
   bool TryGetPalmPose(Handedness hand, out Pose pose);
 
-  /// determines if a hand is tracked
-  bool IsHandTracked(Handedness hand);
+  /// tries to get hand
+  bool TryGetHand(Handedness hand, out XRHand xrHand);
 }

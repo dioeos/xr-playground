@@ -20,13 +20,13 @@ public class DrawerController : MonoBehaviour {
   [SerializeField]
   private float closeMovementScale = 1.8f;
 
-  [Tooltip("The max z range to clamp opening the drawer")]
-  [SerializeField]
-  private float zOpenRange = 0f;
-
-  [Tooltip("The max z range to clamp closing the drawer")]
-  [SerializeField]
-  private float zCloseRange = 0f;
+  // [Tooltip("The max z range to clamp opening the drawer")]
+  // [SerializeField]
+  // private float zOpenRange = 0f;
+  //
+  // [Tooltip("The max z range to clamp closing the drawer")]
+  // [SerializeField]
+  // private float zCloseRange = 0f;
 
   // USE CLAMP TO LIMIT RANGE
 
